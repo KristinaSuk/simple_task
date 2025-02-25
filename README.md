@@ -21,3 +21,8 @@ This repository contains a **full-stack** to-do list web application called **Si
 8. [How to Use the App](#how-to-use-the-app)
 
 ---
+## Project Overview
+
+**SimpleTask** is designed to help users organize and track their tasks. By creating an account, users can add new tasks, set priorities and due dates, categorize their tasks, and mark tasks as completed. The application supports secure JWT-based authentication and stores user and task data in a PostgreSQL database using Sequelize. Tasks can also be imported in bulk via a CSV file upload, saving time when migrating or adding multiple tasks at once.
+
+---
