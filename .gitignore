@@ -398,3 +398,67 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# ==================================================
+# General Node.js Ignore Rules
+# ==================================================
+node_modules/           # Ignore all installed dependencies
+npm-debug.log*         # Ignore npm debug logs
+yarn-debug.log*        # Ignore yarn debug logs
+yarn-error.log*        # Ignore yarn error logs
+
+# ==================================================
+# Environment Variables & Secrets
+# ==================================================
+.env                  # Ignore environment configuration (contains API keys, database passwords)
+*/.env
+.env.local            # Local environment overrides
+.env.development      # Development-specific environment variables
+.env.production       # Production environment variables
+
+# ==================================================
+# Logs
+# ==================================================
+logs                  # Log directory
+*.log                 # Log files
+log.txt               # Specific log files
+debug.log             # Debug logs
+
+# ==================================================
+# Database Files
+# ==================================================
+*.sqlite              # SQLite database files
+*.db                 # Other database files
+pgdata/              # PostgreSQL data directory
+
+# ==================================================
+# Build & Compiled Files
+# ==================================================
+dist/                 # Production build for frontend
+build/                # React production build output
+.vite/                # Vite cache files
+.cache/               # Cache directories
+coverage/             # Jest and testing coverage output
+
+# ==================================================
+# OS-Specific Files
+# ==================================================
+.DS_Store             # macOS Finder metadata
+Thumbs.db            # Windows Explorer thumbnail cache
+
+# ==================================================
+# IDE and Editor Specific Files
+# ==================================================
+.vscode/              # VS Code settings
+.idea/                # JetBrains IDE settings
+*.suo                 # Visual Studio settings
+*.ntvs*               # Node.js Tools for Visual Studio
+*.njsproj             # Node.js project files
+*.sln                 # Visual Studio solution files
+*.swp                 # Vim swap files
+
+# ==================================================
+# Git & GitHub Ignore Rules
+# ==================================================
+#.gitignore            # Ignore itself
+
